@@ -10,3 +10,6 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR,'static', 'static'),)  # put all css, 
 body {
 	background-image: url('../img/bg2.jpg')
 }
+
+# to cleare chache install django-clear-cache
+# and add 'clear_cache', to installed apps # to clear chache python manage.py clear_cache
